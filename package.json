@@ -1,0 +1,27 @@
+{
+    "name": "leetcodeq",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "babel": "babel --presets es2015 ES6/test.js -o ES6/build/main.bundle.js",
+        "start": "http-server -p 9000"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jimmyliao/LeetCodeQ.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jimmyliao/LeetCodeQ/issues"
+    },
+    "homepage": "https://github.com/jimmyliao/LeetCodeQ#readme",
+    "devDependencies": {
+        "babel-cli": "^6.16.0",
+        "babel-core": "^6.17.0",
+        "babel-preset-es2015": "^6.16.0",
+        "babel-preset-react": "^6.16.0",
+        "http-server": "^0.9.0"
+    }
+}
